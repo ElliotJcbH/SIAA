@@ -1,0 +1,16 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: none;
+}
+
+html, body {
+    background: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+}
